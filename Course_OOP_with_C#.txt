@@ -1,0 +1,13 @@
+Course: Object-Oriented Programming with C#
+Clases
+La programación orientada a objetos se basa en el concepto de envolver código alrededor de la lógica en contenedores especiales llamados objetos. En C#, usamos clases para definir cada uno de estos objetos. Las clases representan una plantilla de cómo debe comportarse un objeto y qué debe almacenar o exponer a otros objetos.
+
+Clase abstracta
+Cuando declaramos una clase como abstract estamos indicado que esa clase va a ser utilizada como clase base de otras clases, ya que ella misma no se puede instanciar. Una clase abstracta puede contener miembros abstractos como no abstractos, y todos los miembros deben ser implementados en la clase que la implementa. una clase base es de la que se extenderán otras clases para obtener su lógica.
+
+Patron singleton
+Clase Static
+Solo puede haber una referencia en todo el sistema
+
+Clases Parciales
+Organizar la logica de negocio, consiste en varios archivos de codigo diferentes que el compilador concatena en 1 solo, la logica de la clase se divide asi para facilitar la organizacion de la logica empresarial y asi utilizar banderas del compilador para elegir que parte de una clase se compila o se ignora.
